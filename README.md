@@ -22,12 +22,12 @@ https://github.com/shaffachaudhry/Weather-Dashboard
 ## Sources Utilized 
 Multiple sources were used to help in the functionality of the website to include 
 -Class Activities Module 6 Side Server API's\
-https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys \
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice \
-https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName \ 
-https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified \
-https://developer.mozilla.org/en-US/docs/Web/API/Element/classList \
-https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript \
+https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys\
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice\
+https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName\ 
+https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified\
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList\
+https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript\
 
 ## Mock Image
 ![ A mock-up of the webpage](./assets/mock-up.png)
