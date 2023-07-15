@@ -29,7 +29,7 @@ searchHistoryList.addEventListener('click', function (event) {
   }
 });
 
-//fetch current weather / use destrucuring assignment to obtain values from object
+//fetch current weather / use destructuring assignment to obtain values from object
 function getCurrentWeather(city) {
   var currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   fetch(currentWeatherUrl)
@@ -67,7 +67,7 @@ function getForecastWeather(city) {
         var { dt, main, weather } = forecast;
         var date = new Date(dt * 1000);
         var temperature = main.temp;
-        var humidity = main.humidity;
+        var humidity = main.humidity ;
         var weatherIcon = weather[0].icon;
 
         // make a forecast card
@@ -94,7 +94,8 @@ function getCurrentDate() {
   return getFormattedDate(currentDate);
 }
 
-// date string
+// date string 
+
 function getFormattedDate(date) {
   var options = { year: 'numeric', month: 'long', day: 'numeric' };
   return date.toLocaleDateString(undefined, options);
